@@ -20,4 +20,7 @@ public class Task3 {
         System.out.println("Сумма: " + sum);
         System.out.printf("Среднее арифметическое: " +  average); // можно добавить аргумент "Среднее арифметическое: %.3f%n" (%.3f%n - где 3 это скок знаков оставить, а %n это перевод на новую строку
     }
+    public static void main(String[] args) {
+        solve();
+    }
 }
