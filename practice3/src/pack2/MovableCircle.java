@@ -9,8 +9,7 @@ public class MovableCircle implements Movable {
         this.radius = radius;
     }
 
-    // Движение круга = движение его центра.
-    // Делегируем вызовы методов точке-центру — не дублируем логику.
+    // Движение круга = движение его центра?
     @Override
     public void moveUp() { center.moveUp(); }
 
