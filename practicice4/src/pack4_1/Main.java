@@ -33,7 +33,7 @@ public class Main {
         }
         System.out.println("\n");
 
-        // 3. Динамический подбор комплектующих через switch
+        // 3. Захаркодченый подбор комплектующих через switch
         System.out.println("--- АНАЛИЗ СОВМЕСТИМОСТИ ДЛЯ " + mbs[0].getModel() + " ---");
         // Получаем сокет через геттер и выбираем нужный процессор из массива
         String targetSocket = mbs[0].getSocket();
